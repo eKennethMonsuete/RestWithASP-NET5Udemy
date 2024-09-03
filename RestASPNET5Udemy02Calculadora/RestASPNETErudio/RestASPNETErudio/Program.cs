@@ -1,3 +1,5 @@
+using RestASPNETErudio.Services.Implementations;
+
 namespace RestASPNETErudio
 {
     public class Program
@@ -9,6 +11,8 @@ namespace RestASPNETErudio
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+            builder.Services.AddScoped<IPersonService, PersonServiceImplementation>();
 
             var app = builder.Build();
 

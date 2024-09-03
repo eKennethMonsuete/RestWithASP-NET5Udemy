@@ -1,99 +1,73 @@
 [
   {
-    "ContainingType": "RestASPNETErudio.Controllers.CalculatorController",
-    "Method": "divisao",
-    "RelativePath": "Calculator/div/{firstNumber}/{secondNumber}",
+    "ContainingType": "RestASPNETErudio.Controllers.PersonController",
+    "Method": "Get",
+    "RelativePath": "api/Person",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestASPNETErudio.Controllers.PersonController",
+    "Method": "Post",
+    "RelativePath": "api/Person",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "firstNumber",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "secondNumber",
-        "Type": "System.String",
+        "Name": "person",
+        "Type": "RestASPNETErudio.Model.Person",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestASPNETErudio.Controllers.CalculatorController",
-    "Method": "media",
-    "RelativePath": "Calculator/media/{firstNumber}/{secondNumber}",
-    "HttpMethod": "GET",
+    "ContainingType": "RestASPNETErudio.Controllers.PersonController",
+    "Method": "Put",
+    "RelativePath": "api/Person",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "firstNumber",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "secondNumber",
-        "Type": "System.String",
+        "Name": "person",
+        "Type": "RestASPNETErudio.Model.Person",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestASPNETErudio.Controllers.CalculatorController",
-    "Method": "raiz",
-    "RelativePath": "Calculator/raiz/{firstNumber}",
+    "ContainingType": "RestASPNETErudio.Controllers.PersonController",
+    "Method": "Get",
+    "RelativePath": "api/Person/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "firstNumber",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestASPNETErudio.Controllers.CalculatorController",
-    "Method": "subtracao",
-    "RelativePath": "Calculator/sub/{firstNumber}/{secondNumber}",
-    "HttpMethod": "GET",
+    "ContainingType": "RestASPNETErudio.Controllers.PersonController",
+    "Method": "Delete",
+    "RelativePath": "api/Person/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "firstNumber",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "secondNumber",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RestASPNETErudio.Controllers.CalculatorController",
-    "Method": "soma",
-    "RelativePath": "Calculator/sum/{firstNumber}/{secondNumber}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "firstNumber",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "secondNumber",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],

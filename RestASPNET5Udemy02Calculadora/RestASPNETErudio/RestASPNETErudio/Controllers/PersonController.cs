@@ -1,91 +1,73 @@
 using Microsoft.AspNetCore.Mvc;
+using RestASPNETErudio.Model;
+using RestASPNETErudio.Services.Implementations;
 
 namespace RestASPNETErudio.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {
        
 
         private readonly ILogger<PersonController> _logger;
+        private IPersonService _personService;
 
-        public PersonController(ILogger<PersonController> logger)
+        public PersonController(ILogger<PersonController> logger, IPersonService personService)
         {
             _logger = logger;
+            _personService = personService;
         }
-        //solid aqui
-        [HttpGet("sum/{firstNumber}/{secondNumber}")]
-        public IActionResult soma(string firstNumber, string secondNumber)
+
+
+        //solid aqui como
+
+
+        [HttpGet]
+        public IActionResult Get()
         {
-            if (IsNumeric(firstNumber) && IsNumeric(secondNumber)) {
-                var sum = ConvertToDecimal(firstNumber) + ConvertToDecimal(secondNumber);
-                return Ok(sum.ToString());
-            }
-            return BadRequest("Invalid inout");
+            return Ok(_personService.FindAll());
         }
 
-        [HttpGet("sub/{firstNumber}/{secondNumber}")]
-        public IActionResult subtracao(string firstNumber, string secondNumber)
+        [HttpGet("{id}")]
+        public IActionResult Get(long id)
         {
-            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-            {
-                var sub = ConvertToDecimal(firstNumber) - ConvertToDecimal(secondNumber);
-                return Ok(sub.ToString());
-            }
-            return BadRequest("Invalid inout");
+            var person = _personService.FindByID(id);
+            if (person == null) return NotFound();
+            return Ok(person);
         }
 
-        [HttpGet("div/{firstNumber}/{secondNumber}")]
-        public IActionResult divisao(string firstNumber, string secondNumber)
+        [HttpPost]
+        public IActionResult Post([FromBody] Person person )
         {
-            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-            {
-                var divi = ConvertToDecimal(firstNumber) / ConvertToDecimal(secondNumber);
-                return Ok(divi.ToString());
-            }
-            return BadRequest("Invalid inout");
+            
+            if (person == null) return BadRequest();
+            return Ok(_personService.Create(person));
         }
 
-        [HttpGet("media/{firstNumber}/{secondNumber}")]
-        public IActionResult media(string firstNumber, string secondNumber)
+        [HttpPut]
+        public IActionResult Put([FromBody] Person person)
         {
-            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-            {
-                var mediaSoma = ConvertToDecimal(firstNumber) + ConvertToDecimal(secondNumber);
-                var media = mediaSoma / 2;
-                return Ok(media.ToString());
-            }
-            return BadRequest("Invalid inout");
+
+            if (person == null) return BadRequest();
+            return Ok(_personService.Update(person));
         }
 
-        [HttpGet("raiz/{firstNumber}")]
-        public IActionResult raiz(string firstNumber)
+        [HttpDelete("{id}")]
+        public IActionResult Delete(long id)
         {
-            if (IsNumeric(firstNumber))
-            {
-                float f = float.Parse(firstNumber);
-                var raiz = Convert.ToSingle(Math.Sqrt(f)); ;
-                
-                return Ok("raiz de: "+ f + " é igual a: " + raiz.ToString());
-            }
-            return BadRequest("Invalid inout");
+          
+            _personService.Delete(id);
+         
+            return NoContent();
         }
 
-        private decimal ConvertToDecimal(string strNumber)
-        {
-            decimal decimalValue;
-            if(decimal.TryParse(strNumber, out decimalValue)) { return decimalValue; }
-            return 0;
-        }
 
-        private bool IsNumeric(string strNumber)
-        {
-            double number;
 
-            bool isNumber = double.TryParse(strNumber, System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo,  out number);
 
-            return isNumber;
-        }
+
+
+
+
     }
 }
