@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|w:\\aarquivos\\programacao\\aulas\\back-end\\c-sharp\\restwithasp-net5udemy\\restwithasp-net5udemy\\restaspnet5udemy01\\restaspneterudio\\restaspneterudio\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|solutionrelative:restaspneterudio\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|w:\\aarquivos\\programacao\\aulas\\back-end\\c-sharp\\restwithasp-net5udemy\\restwithasp-net5udemy\\restaspnet5udemy01\\restaspneterudio\\restaspneterudio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|solutionrelative:restaspneterudio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|w:\\aarquivos\\programacao\\aulas\\back-end\\c-sharp\\restwithasp-net5udemy\\restwithasp-net5udemy\\restaspnet5udemy01\\restaspneterudio\\restaspneterudio\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|solutionrelative:restaspneterudio\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\RestASPNETErudio\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "RestASPNETErudio\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\RestASPNETErudio\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "RestASPNETErudio\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T22:45:39.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\RestASPNETErudio\\Program.cs",
+              "RelativeDocumentMoniker": "RestASPNETErudio\\Program.cs",
+              "ToolTip": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\RestASPNETErudio\\Program.cs",
+              "RelativeToolTip": "RestASPNETErudio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T22:45:10.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\RestASPNETErudio\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "RestASPNETErudio\\WeatherForecast.cs",
+              "ToolTip": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy01\\RestASPNETErudio\\RestASPNETErudio\\WeatherForecast.cs",
+              "RelativeToolTip": "RestASPNETErudio\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T22:45:03.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

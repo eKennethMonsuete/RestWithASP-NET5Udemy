@@ -1,0 +1,6 @@
+@RestASPNETErudio_HostAddress = http://localhost:5029
+
+GET {{RestASPNETErudio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
