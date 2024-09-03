@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|w:\\aarquivos\\programacao\\aulas\\back-end\\c-sharp\\restwithasp-net5udemy\\restwithasp-net5udemy\\restaspnet5udemy02calculadora\\restaspneterudio\\restaspneterudio\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|solutionrelative:restaspneterudio\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|w:\\aarquivos\\programacao\\aulas\\back-end\\c-sharp\\restwithasp-net5udemy\\restwithasp-net5udemy\\restaspnet5udemy02calculadora\\restaspneterudio\\restaspneterudio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|solutionrelative:restaspneterudio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|w:\\aarquivos\\programacao\\aulas\\back-end\\c-sharp\\restwithasp-net5udemy\\restwithasp-net5udemy\\restaspnet5udemy02calculadora\\restaspneterudio\\restaspneterudio\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1884ADD-C3E0-4BE0-A6F5-0BB65C1D67D6}|RestASPNETErudio\\RestASPNETErudio.csproj|solutionrelative:restaspneterudio\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\RestASPNETErudio\\Model\\Person.cs",
+              "RelativeDocumentMoniker": "RestASPNETErudio\\Model\\Person.cs",
+              "ToolTip": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\RestASPNETErudio\\Model\\Person.cs",
+              "RelativeToolTip": "RestASPNETErudio\\Model\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:20:22.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\RestASPNETErudio\\Program.cs",
+              "RelativeDocumentMoniker": "RestASPNETErudio\\Program.cs",
+              "ToolTip": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\RestASPNETErudio\\Program.cs",
+              "RelativeToolTip": "RestASPNETErudio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:59:54.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\RestASPNETErudio\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "RestASPNETErudio\\Controllers\\PersonController.cs",
+              "ToolTip": "W:\\AARQUIVOS\\PROGRAMACAO\\AULAS\\BACK-END\\c-sharp\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestASPNET5Udemy02Calculadora\\RestASPNETErudio\\RestASPNETErudio\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "RestASPNETErudio\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:56:30.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
