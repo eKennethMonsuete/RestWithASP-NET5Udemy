@@ -1,2 +1,0 @@
-# RestWithASP-NET5Udemy
-API REST COM C#

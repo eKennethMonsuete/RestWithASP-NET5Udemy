@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ApiPessoa", "RestASPNET5Udemy01\01.ApiPessoa.csproj", "{6C809F65-B2ED-4AAA-B808-1DF6F7F634C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Calculadora", "RestASPNET5Udemy02Calculadora\02.Calculadora.csproj", "{C87D881A-AAC8-4572-AFE8-6C3FE583A9DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C809F65-B2ED-4AAA-B808-1DF6F7F634C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C809F65-B2ED-4AAA-B808-1DF6F7F634C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C809F65-B2ED-4AAA-B808-1DF6F7F634C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C809F65-B2ED-4AAA-B808-1DF6F7F634C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87D881A-AAC8-4572-AFE8-6C3FE583A9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87D881A-AAC8-4572-AFE8-6C3FE583A9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87D881A-AAC8-4572-AFE8-6C3FE583A9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87D881A-AAC8-4572-AFE8-6C3FE583A9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4744ABCE-0477-4A7E-B17E-CBB7BEE916F0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/RestASPNET5Udemy01/RestASPNETErudio/RestASPNETErudio/obj/Release/net8.0
+/RestASPNET5Udemy01/bin/Debug/net8.0
+/RestASPNET5Udemy01/obj
+/RestASPNET5Udemy02Calculadora/bin/Debug/net8.0
+/RestASPNET5Udemy02Calculadora/obj/Debug/net8.0
+/RestASPNET5Udemy02Calculadora/obj
